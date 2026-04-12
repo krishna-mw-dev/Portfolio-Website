@@ -1,0 +1,50 @@
+# Query: Moncy
+# ContextLines: 1
+
+11 results - 7 files
+
+index.html:
+  6      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  7:     <title>Krishna Maheshwari - Creative Developer | Designer</title>
+  8    </head>
+
+LICENSE:
+   2  
+   3: Copyright (c) 2026 Krishna Maheshwari
+   4  
+
+  22  If you use any part of this project, you must give clear credit to:
+  23: “Krishna Maheshwari” with a link to the original source.
+  24  
+
+  33  ## Contact
+  34: krishna.mw.dev@gmail.com
+
+package-lock.json:
+  1  {
+  2:   "name": "krishna-portfolio",
+  3    "version": "0.0.0",
+
+  7      "": {
+  8:       "name": "krishna-portfolio",
+  9        "version": "0.0.0",
+
+package.json:
+  1  {
+  2:   "name": "krishna-portfolio",
+  3    "private": true,
+
+README.md:
+  21  
+  22: — Krishna Maheshwari
+  23  
+
+src/components/Contact.tsx:
+  60              <h2>
+  61:               Designed and Developed <br /> by <span>Krishna Maheshwari</span>
+  62              </h2>
+
+src/components/Landing.tsx:
+  11              <h1>
+  12:               KRISHNA
+  13                <br />

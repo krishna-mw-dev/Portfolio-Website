@@ -1,0 +1,153 @@
+/* ===== About Section ===== */
+.about-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 80px 0;
+}
+
+/* Container */
+.about-container {
+  max-width: 650px;
+  margin-left: auto;
+  padding-right: 5%;
+  color: #ffffff;
+  z-index: 2;
+}
+
+/* Section Heading */
+.about-container h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.about-container h2 span {
+  color: var(--accentColor);
+}
+
+/* Paragraph Styling */
+.about-container p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #d1d1d1;
+  margin-bottom: 18px;
+}
+
+/* Highlighted Name */
+.about-container p strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ===== About Details Grid ===== */
+.about-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-details h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accentColor);
+  margin-bottom: 5px;
+}
+
+.about-details p {
+  font-size: 0.95rem;
+  color: #cccccc;
+  margin: 0;
+}
+
+/* ===== Responsive Design ===== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .about-section {
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .about-container {
+    margin: auto;
+    padding-right: 0;
+    max-width: 700px;
+  }
+
+  .about-container h2 {
+    font-size: 2.4rem;
+  }
+
+  .about-container p {
+    font-size: 1rem;
+  }
+
+  .about-details {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 50px 20px;
+  }
+
+  .about-container h2 {
+    font-size: 2rem;
+  }
+
+  .about-container p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .about-details {
+    gap: 15px;
+  }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+  .about-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-container p {
+    font-size: 0.9rem;
+  }
+
+  .about-details h4 {
+    font-size: 0.85rem;
+  }
+
+  .about-details p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1440px) {
+  .about-container {
+    max-width: 750px;
+  }
+
+  .about-container h2 {
+    font-size: 3.2rem;
+  }
+
+  .about-container p {
+    font-size: 1.15rem;
+  }
+}
