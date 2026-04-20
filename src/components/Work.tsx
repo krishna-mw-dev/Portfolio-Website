@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 const projects = [
   {
     number: "01",
-    title: "BookConsumers - Bookstore Application",
+    title: "BookConsumers - Bookstore App",
     category: "Full-Stack Web Development",
     tools: "React.js, Node.js, Express.js, MongoDB",
     image: "/images/bookconsumers.webp",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     number: "02",
-    title: "God-Themed Clothing E-Commerce",
+    title: "God-Themed E-Commerce",
     category: "E-Commerce Development",
     tools: "React.js, Node.js, Express.js, MongoDB",
     image: "/images/ecommerce.webp",
@@ -27,17 +27,9 @@ const projects = [
     number: "03",
     title: "3D Portfolio Website",
     category: "Frontend Development",
-    tools: "React, Three.js, GSAP, TypeScript",
+    tools: "React 19, Three.js, GSAP, Motion, OGL",
     image: "/images/portfolio.webp",
     link: "https://github.com/krishna-mw-dev",
-  },
-  {
-    number: "04",
-    title: "Freelance Content Writing",
-    category: "Professional Experience",
-    tools: "Content Writing, Research, SEO",
-    image: "/images/freelance.webp",
-    link: "https://www.linkedin.com/in/krishna-maheshwari-4755903a1/",
   },
 ];
 
